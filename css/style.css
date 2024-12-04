@@ -3,11 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
-
 body{
-    background-color: rgb(255, 239, 177);
+    background-color: cornsilk;
 }
-
 
 #homebanner{
         background-color:cornsilk;
@@ -29,6 +27,7 @@ body{
         text-align: center;
     }
 }
+
 #header{
     margin-left: 10%;
     text-align: center;
@@ -36,29 +35,24 @@ body{
         font-weight: 900;
         font-style: normal;
         font-size: 40px;
-        color: rgb(241 83 86);
+        color: rgb(252, 170, 5);
 }
 
-#mainContent{
-    margin-left: 10%;
-    margin-right:10%
-}
-
-footer{
-    margin-left: 10%;
-}
 
 h2{
     font-family: "sauna-new", sans-serif;
         font-weight: 900;
         font-style: normal;
-        font-size: 50px;
-        color: rgb(252, 170, 5);
+        font-size: 55px;
+        color: rgb(0, 0, 0);
+        margin-left: 8%;
 }
 
 #About{
     display: flex;
             flex-direction: row;
+            background-color: rgb(247, 231, 164);
+            padding: 3%;
     p{
         font-family: "futura-pt", sans-serif;
         font-weight: 300;
@@ -67,25 +61,36 @@ h2{
         margin-right: 5%;
         margin-left:3%;
     }
+    img{
+        margin-left: 10%;
+    }
         }
 
 #location{
     display: flex;
             flex-direction: row;
+            background-color: rgba(241,83,86,50%);
+            padding: 3%;
     p{
         font-family: "futura-pt", sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: 33px;
         margin-right: 5%;
+        margin-left: 4%;
 }
 }
 
+body{
+    background-color: rgba(241 83 86 50%);
+}
+
 #Partner{
-    img{
-        text-align: center;
-    }
+    background-color: rgba(133,219,107,50%);
     h2{
-        text-align: left;
+        margin-left: 10%;
+    }
+    img{
+        margin-left: 10%;
     }
 }
