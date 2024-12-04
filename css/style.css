@@ -82,5 +82,10 @@ h2{
 }
 
 #Partner{
-    text-align: center;
+    img{
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+    }
 }
