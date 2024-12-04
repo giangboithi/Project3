@@ -49,7 +49,7 @@ h3{
 }
 p{
     font-family: "futura-pt", sans-serif;
-        font-weight: 300;
+        font-weight: 500;
         font-style: normal;
         font-size: 20px;
 }
@@ -57,7 +57,7 @@ li{
     font-family: "futura-pt", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 18px;
+font-size: 18px;
 }
 #Dayone{
     margin-left: 10%;
@@ -69,17 +69,12 @@ img{
 }
 
 #DayTwo{
-    margin-left: 10%;
-    margin-right: 22%;
+    margin-left: 45%;
+    margin-right: 10%;
+    text-align: left;
 }
 
 #DayThree{
     margin-left: 10%;
     margin-right: 22%;
-}
-
-#mainContent{
-    display:flex;
-    flex-direction: column;
-
 }
