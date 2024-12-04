@@ -6,8 +6,9 @@
 
 
 #homebanner{
-        background-color:rgb(250, 198, 198);
+        background-color:rgb(248, 214, 214);
         padding: 2%;
+        border-radius: 8%;
     img{
         margin-left: 47%;
     }
@@ -19,14 +20,14 @@
         font-size: 35px;
         text-decoration: none;
         margin-left:4%;
-        color: rgb(0, 0, 0);
+        color: rgb(33,115, 166);
     }
     nav{
         text-align: center;
     }
 }
 body{
-    background-color: rgba(241,83,86,70%);
+    background-color: rgba(241,83,86,50%);
 }
 
 #header{
@@ -35,21 +36,16 @@ body{
         font-weight: 900;
         font-style: normal;
         font-size: 40px;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
 }
 
-#mainContent{
-    display: flex;
-    flex-direction: row;
-    
-}
 
 h3{
     font-family: "sauna-new", sans-serif;
         font-weight: 900;
         font-style: bold;
         font-size: 35px;
-        color: rgb(255, 255, 255)
+        color: rgba(33,115, 166,100%);
 }
 p{
     font-family: "futura-pt", sans-serif;
@@ -65,9 +61,25 @@ li{
 }
 #Dayone{
     margin-left: 10%;
-
+    margin-right: 22%;
 }
 
 img{
     border-radius: 8%;
+}
+
+#DayTwo{
+    margin-left: 10%;
+    margin-right: 22%;
+}
+
+#DayThree{
+    margin-left: 10%;
+    margin-right: 22%;
+}
+
+#mainContent{
+    display:flex;
+    flex-direction: column;
+
 }
